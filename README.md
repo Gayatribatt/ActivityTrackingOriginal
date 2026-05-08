@@ -1,3 +1,4 @@
+
 # ActivityTracker API (.NET 8)
 
 Production-ready ASP.NET Core Web API implementing Audit Logging and Activity Tracking using Clean Architecture:
@@ -121,3 +122,6 @@ Response includes:
 - Uses `Database.EnsureCreated()` for quick startup. For production, replace with EF migrations.
 - JWT signing key in appsettings is for demo only.
 - Serilog writes to console and rolling file logs under `logs/`.
+
+# ActivityTrackingOriginal
+
